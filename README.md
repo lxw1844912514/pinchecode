@@ -21,3 +21,5 @@
 #### 在线体验：<a href="http://demo.douchat.cc/" target="_blank">http://demo.douchat.cc/</a>
 #### 开发手册：<a href="http://doc.douchat.cc/" target="_blank">http://doc.douchat.cc/</a>
 
+前台地址:http://car.com/addon/pinche/web/preview/act/index
+后台地址: http://car.com/Admin/Index/index 账号: admin2  密码: 111111
