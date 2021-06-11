@@ -1,0 +1,28 @@
+[ 2021-06-05T17:03:07+08:00 ] 192.168.33.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002787s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+ERR: 无法加载模块:Favicon
+
+[ 2021-06-05T17:06:53+08:00 ] 192.168.33.1 /Public/Home/default/img/bs-docs-masthead-pattern.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+ERR: 无法加载模块:Public
+
+[ 2021-06-05T17:37:54+08:00 ] 192.168.33.1 /Public/Install/css/icon.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+ERR: 无法加载模块:Public
+
+[ 2021-06-05T17:38:47+08:00 ] 192.168.33.1 /images/empty.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+ERR: 无法加载模块:Images
+

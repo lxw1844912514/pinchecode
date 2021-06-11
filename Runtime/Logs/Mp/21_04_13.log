@@ -1,0 +1,198 @@
+[ 2021-04-13T00:25:09+08:00 ] 192.168.33.1 /Mp/Material/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.019152s ]
+INFO: [ rbac ] --END-- [ RunTime:0.019177s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dc_mp` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+INFO: [ sidenav ] --START--
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT `id`,`name`,`bzname`,`type` FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined variable: access_addons /home/wwwroot/default/newproject/cc/App/Mp/Model/AddonsModel.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Mp/Behavior/SidenavBehavior.class.php 第 107 行.
+INFO: Run Mp\Behavior\SidenavBehavior [ RunTime:0.010350s ]
+INFO: [ sidenav ] --END-- [ RunTime:0.010369s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_attach` [ RunTime:0.0006s ]
+SQL: INSERT INTO `dc_attach` (`mpid`,`user_id`,`file_name`,`file_extension`,`file_size`,`file_path`,`hash`,`create_time`,`item_type`) VALUES ('1','1','2 2.jpg','jpg','44947','./Uploads/Pictures/20210413/6074746550336.jpg','2ec5b6a4fcd08d1b44a264f4bf86ed82','1618244709','image') [ RunTime:0.0059s ]
+
+[ 2021-04-13T00:30:58+08:00 ] 192.168.33.1 /Mp/Material/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.022694s ]
+INFO: [ rbac ] --END-- [ RunTime:0.022751s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_mp` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+INFO: [ sidenav ] --START--
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT `id`,`name`,`bzname`,`type` FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined variable: access_addons /home/wwwroot/default/newproject/cc/App/Mp/Model/AddonsModel.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Mp/Behavior/SidenavBehavior.class.php 第 107 行.
+INFO: Run Mp\Behavior\SidenavBehavior [ RunTime:0.007281s ]
+INFO: [ sidenav ] --END-- [ RunTime:0.007305s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_attach` [ RunTime:0.0006s ]
+SQL: INSERT INTO `dc_attach` (`mpid`,`user_id`,`file_name`,`file_extension`,`file_size`,`file_path`,`hash`,`create_time`,`item_type`) VALUES ('1','1','1 2.jpg','jpg','35656','./Uploads/Pictures/20210413/607475c2cbb2e.jpg','271ac638c0fcaa2fee13747d3eccf4a6','1618245058','image') [ RunTime:0.0085s ]
+
+[ 2021-04-13T00:31:12+08:00 ] 192.168.33.1 /Mp/Material/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.021660s ]
+INFO: [ rbac ] --END-- [ RunTime:0.021678s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dc_mp` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+INFO: [ sidenav ] --START--
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT `id`,`name`,`bzname`,`type` FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined variable: access_addons /home/wwwroot/default/newproject/cc/App/Mp/Model/AddonsModel.class.php 第 30 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Mp/Behavior/SidenavBehavior.class.php 第 107 行.
+INFO: Run Mp\Behavior\SidenavBehavior [ RunTime:0.006579s ]
+INFO: [ sidenav ] --END-- [ RunTime:0.006597s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_attach` [ RunTime:0.0005s ]
+SQL: INSERT INTO `dc_attach` (`mpid`,`user_id`,`file_name`,`file_extension`,`file_size`,`file_path`,`hash`,`create_time`,`item_type`) VALUES ('1','1','2 2.jpg','jpg','44947','./Uploads/Pictures/20210413/607475d00a12f.jpg','2ec5b6a4fcd08d1b44a264f4bf86ed82','1618245072','image') [ RunTime:0.0052s ]
+

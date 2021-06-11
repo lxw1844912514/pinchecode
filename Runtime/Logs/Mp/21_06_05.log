@@ -1,0 +1,1103 @@
+[ 2021-06-05T17:07:15+08:00 ] 192.168.33.1 /addon/pinche/web/preview/act/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012566s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.028480s ]
+INFO: [ rbac ] --END-- [ RunTime:0.028499s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: [ sidenav ] --START--
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT `id`,`name`,`bzname`,`type` FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: access_addons /home/wwwroot/default/newproject/cc/App/Mp/Model/AddonsModel.class.php 第 30 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Mp/Behavior/SidenavBehavior.class.php 第 30 行.
+INFO: Run Mp\Behavior\SidenavBehavior [ RunTime:0.062351s ]
+INFO: [ sidenav ] --END-- [ RunTime:0.062371s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: [ tip ] --START--
+NOTIC: [8] Undefined variable: tip /home/wwwroot/default/newproject/cc/App/Mp/Behavior/TipBehavior.class.php 第 21 行.
+INFO: Run Mp\Behavior\TipBehavior [ RunTime:0.003002s ]
+INFO: [ tip ] --END-- [ RunTime:0.003030s ]
+INFO: [ crumb ] --START--
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Mp\Behavior\CrumbBehavior [ RunTime:0.004249s ]
+INFO: [ crumb ] --END-- [ RunTime:0.004267s ]
+INFO: [ nav ] --START--
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Mp\Behavior\NavBehavior [ RunTime:0.005106s ]
+INFO: [ nav ] --END-- [ RunTime:0.005123s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Mp/Controller/AddonsController.class.php 第 319 行.
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: crumb /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 863 行.
+NOTIC: [8] Undefined index: nav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 864 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: btn /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 867 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003328s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2021-06-05T17:07:21+08:00 ] 192.168.33.1 /addon/pinche/mobile/index/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002230s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 154 行.
+NOTIC: [8] Undefined property: stdClass::$expire_time /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 82 行.
+NOTIC: [8] Undefined property: stdClass::$expire_time /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 123 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 126 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE ( status ) ORDER BY pubtime desc  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 155 行.
+NOTIC: [8] Undefined variable: ffrom /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 155 行.
+NOTIC: [8] Undefined variable: tto /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 155 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: car /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 209 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: man /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 210 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: go2 /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 257 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001248s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2021-06-05T17:07:22+08:00 ] 192.168.33.1 /addon/pinche/mobile/lists/mpid/0/type//go/0/ffrom//tto/?page=1&pageSize=8&_=1622884041835
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 390 行.
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 1 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 AND `top_time` > 1622884042 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0009s ]
+
+[ 2021-06-05T17:07:26+08:00 ] 192.168.33.1 /addon/pinche/mobile/lists/mpid/0/type//go/0/ffrom//tto/?page=1&pageSize=8&_=1622884041836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 390 行.
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 1 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 AND `top_time` > 1622884046 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0036s ]
+
+[ 2021-06-05T17:07:26+08:00 ] 192.168.33.1 /addon/pinche/mobile/lists/mpid/0/type//go/0/ffrom//tto/?page=1&pageSize=8&_=1622884041837
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 390 行.
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 1 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 AND `top_time` > 1622884046 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0002s ]
+
+[ 2021-06-05T17:07:27+08:00 ] 192.168.33.1 /addon/pinche/mobile/lists/mpid/0/type//go/0/ffrom//tto/?page=1&pageSize=8&_=1622884041838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 390 行.
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 1 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 AND `top_time` > 1622884047 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0035s ]
+
+[ 2021-06-05T17:07:27+08:00 ] 192.168.33.1 /addon/pinche/mobile/lists/mpid/0/type//go/0/ffrom//tto/?page=1&pageSize=8&_=1622884041839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 390 行.
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 1 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 AND `top_time` > 1622884047 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0003s ]
+
+[ 2021-06-05T17:07:32+08:00 ] 192.168.33.1 /addon/pinche/mobile/user/mpid/0/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2021-06-05T17:07:33+08:00 ] 192.168.33.1 /addon/pinche/mobile/login/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001426s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2021-06-05T17:07:38+08:00 ] 192.168.33.1 /addon/pinche/mobile/user/mpid/0/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2021-06-05T17:07:39+08:00 ] 192.168.33.1 /addon/pinche/mobile/register/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined variable: info /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/1a77d91560e73237624dcbc91115e552.php 第 6 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: user_contact /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/1a77d91560e73237624dcbc91115e552.php 第 187 行.
+NOTIC: [8] Undefined index: user_contact /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/1a77d91560e73237624dcbc91115e552.php 第 195 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2021-06-05T17:07:55+08:00 ] 192.168.33.1 /addon/pinche/mobile/register/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `dc_bs_user` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `dc_bs_user` WHERE `name` = '123' LIMIT 1   [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+
+[ 2021-06-05T17:08:34+08:00 ] 192.168.33.1 /addon/pinche/web/preview/act/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.036987s ]
+INFO: [ rbac ] --END-- [ RunTime:0.037005s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: [ sidenav ] --START--
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT `id`,`name`,`bzname`,`type` FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: access_addons /home/wwwroot/default/newproject/cc/App/Mp/Model/AddonsModel.class.php 第 30 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Mp/Behavior/SidenavBehavior.class.php 第 30 行.
+INFO: Run Mp\Behavior\SidenavBehavior [ RunTime:0.013290s ]
+INFO: [ sidenav ] --END-- [ RunTime:0.013322s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: [ tip ] --START--
+NOTIC: [8] Undefined variable: tip /home/wwwroot/default/newproject/cc/App/Mp/Behavior/TipBehavior.class.php 第 21 行.
+INFO: Run Mp\Behavior\TipBehavior [ RunTime:0.003101s ]
+INFO: [ tip ] --END-- [ RunTime:0.003150s ]
+INFO: [ crumb ] --START--
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Mp\Behavior\CrumbBehavior [ RunTime:0.002425s ]
+INFO: [ crumb ] --END-- [ RunTime:0.002444s ]
+INFO: [ nav ] --START--
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Mp\Behavior\NavBehavior [ RunTime:0.002036s ]
+INFO: [ nav ] --END-- [ RunTime:0.002054s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Mp/Controller/AddonsController.class.php 第 319 行.
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: crumb /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 863 行.
+NOTIC: [8] Undefined index: nav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 864 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: btn /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 867 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002146s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2021-06-05T17:08:35+08:00 ] 192.168.33.1 /addon/pinche/mobile/index/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002936s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 154 行.
+NOTIC: [8] Undefined property: stdClass::$expire_time /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 82 行.
+NOTIC: [8] Undefined property: stdClass::$expire_time /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 123 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 126 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE ( status ) ORDER BY pubtime desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 155 行.
+NOTIC: [8] Undefined variable: ffrom /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 155 行.
+NOTIC: [8] Undefined variable: tto /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 155 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: car /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 209 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: man /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 210 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: go2 /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 257 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2021-06-05T17:08:35+08:00 ] 192.168.33.1 /addon/pinche/mobile/lists/mpid/0/type//go/0/ffrom//tto/?page=1&pageSize=8&_=1622884115469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 390 行.
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 1 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 AND `top_time` > 1622884115 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0172s ]
+
+[ 2021-06-05T17:08:37+08:00 ] 192.168.33.1 /addon/pinche/mobile/user/mpid/0/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2021-06-05T17:08:39+08:00 ] 192.168.33.1 /addon/pinche/mobile/register/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: info /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/1a77d91560e73237624dcbc91115e552.php 第 6 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: user_contact /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/1a77d91560e73237624dcbc91115e552.php 第 187 行.
+NOTIC: [8] Undefined index: user_contact /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/1a77d91560e73237624dcbc91115e552.php 第 195 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2021-06-05T17:08:55+08:00 ] 192.168.33.1 /addon/pinche/mobile/register/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002902s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dc_bs_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `dc_bs_user` WHERE `name` = '和和hi' LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: auto /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `dc_bs_user` [ RunTime:0.0008s ]
+SQL: INSERT INTO `dc_bs_user` (`name`,`type`,`phonenum`,`password`,`created_at`) VALUES ('和和hi','1','18231867888','db3686d63e3317e74ff043e5955b3ad8','1622884135') [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `dc_bs_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dc_bs_user` WHERE `name` = '和和hi' AND `password` = 'db3686d63e3317e74ff043e5955b3ad8' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+
+[ 2021-06-05T17:08:55+08:00 ] 192.168.33.1 /addon/pinche/mobile/login/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001774s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2021-06-05T17:09:08+08:00 ] 192.168.33.1 /addon/pinche/mobile/login/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dc_bs_user` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `dc_bs_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_bs_user` WHERE `name` = '123455' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+
+[ 2021-06-05T17:38:35+08:00 ] 192.168.33.1 /addon/pinche/mobile/register/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `dc_bs_user` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `dc_bs_user` WHERE `name` = '111' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+
+[ 2021-06-05T17:38:40+08:00 ] 192.168.33.1 /addon/pinche/web/preview/act/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.027771s ]
+INFO: [ rbac ] --END-- [ RunTime:0.027869s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: [ sidenav ] --START--
+SQL: SHOW COLUMNS FROM `dc_addons` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT `id`,`name`,`bzname`,`type` FROM `dc_addons` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: access_addons /home/wwwroot/default/newproject/cc/App/Mp/Model/AddonsModel.class.php 第 30 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Mp/Behavior/SidenavBehavior.class.php 第 30 行.
+INFO: Run Mp\Behavior\SidenavBehavior [ RunTime:0.008756s ]
+INFO: [ sidenav ] --END-- [ RunTime:0.008785s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: [ tip ] --START--
+NOTIC: [8] Undefined variable: tip /home/wwwroot/default/newproject/cc/App/Mp/Behavior/TipBehavior.class.php 第 21 行.
+INFO: Run Mp\Behavior\TipBehavior [ RunTime:0.001654s ]
+INFO: [ tip ] --END-- [ RunTime:0.001695s ]
+INFO: [ crumb ] --START--
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Mp\Behavior\CrumbBehavior [ RunTime:0.002378s ]
+INFO: [ crumb ] --END-- [ RunTime:0.002394s ]
+INFO: [ nav ] --START--
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Mp\Behavior\NavBehavior [ RunTime:0.002562s ]
+INFO: [ nav ] --END-- [ RunTime:0.002579s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Mp/Controller/AddonsController.class.php 第 319 行.
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: crumb /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 863 行.
+NOTIC: [8] Undefined index: nav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 864 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: btn /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 867 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002708s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001940s ]
+
+[ 2021-06-05T17:38:41+08:00 ] 192.168.33.1 /addon/pinche/mobile/index/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 154 行.
+NOTIC: [8] Undefined property: stdClass::$expire_time /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 82 行.
+NOTIC: [8] Undefined property: stdClass::$expire_time /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 123 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 126 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE ( status ) ORDER BY pubtime desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 155 行.
+NOTIC: [8] Undefined variable: ffrom /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 155 行.
+NOTIC: [8] Undefined variable: tto /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 155 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: car /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 209 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: man /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 210 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined variable: go2 /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/e496825ae389e38a632a753950df9209.php 第 257 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002689s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2021-06-05T17:38:41+08:00 ] 192.168.33.1 /addon/pinche/mobile/lists/mpid/0/type//go/0/ffrom//tto/?page=1&pageSize=8&_=1622885921736
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003154s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: go /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 390 行.
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 1 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 AND `top_time` > 1622885921 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `types` = 'go' AND `mpid` = 0 AND `is_top` = 0 ORDER BY pubtime desc LIMIT 0,8   [ RunTime:0.0080s ]
+
+[ 2021-06-05T17:38:43+08:00 ] 192.168.33.1 /addon/pinche/mobile/user/mpid/0/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003825s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001897s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2021-06-05T17:38:47+08:00 ] 192.168.33.1 /addon/pinche/mobile/user_push/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE `nickname` = 'admin2' ORDER BY pubtime desc  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2021-06-05T17:38:49+08:00 ] 192.168.33.1 /addon/pinche/mobile/add/mpid/0/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: info /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/bad35e301a42a10b035f55d838b146fc.php 第 5 行.
+NOTIC: [8] Undefined variable: info /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/bad35e301a42a10b035f55d838b146fc.php 第 154 行.
+NOTIC: [8] Undefined variable: info /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/bad35e301a42a10b035f55d838b146fc.php 第 160 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: user_contact /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/bad35e301a42a10b035f55d838b146fc.php 第 295 行.
+NOTIC: [8] Undefined index: user_tel /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/bad35e301a42a10b035f55d838b146fc.php 第 304 行.
+NOTIC: [8] Undefined variable: info /home/wwwroot/default/newproject/cc/Runtime/Cache/Mp/bad35e301a42a10b035f55d838b146fc.php 第 310 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001483s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2021-06-05T17:39:40+08:00 ] 192.168.33.1 /addon/pinche/mobile/save/mpid/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `dc_mp_fans` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: TopIndex /home/wwwroot/default/newproject/cc/Addons/pinche/Controller/MobileController.class.php 第 305 行.
+SQL: INSERT INTO `dc_bs_pinche` (`mpid`,`openid`,`nickname`,`pubtime`,`status`,`types`,`gotime`,`from`,`to`,`money`,`num`,`cartype`,`through`,`people_count`,`remark`,`contact`,`tel`) VALUES ('0',NULL,'和和hi','1622885980','1','1','1622886580','邯郸','北京','232','2','2','汉北,廊坊,衡水','0','无','22','2222222') [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+
+[ 2021-06-05T17:39:40+08:00 ] 192.168.33.1 /addon/pinche/mobile/detail/mpid/0/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_mp` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `dc_bs_pinche` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `dc_bs_pinche` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_mp_fans` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `dc_mp_fans` WHERE ( openid = '' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `dc_car` [ RunTime:0.0045s ]
+SQL: SELECT `name`,`car_type` FROM `dc_car` WHERE ( type ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined property: stdClass::$expire_time /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 82 行.
+NOTIC: [8] Undefined property: stdClass::$expire_time /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 123 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 126 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /home/wwwroot/default/newproject/cc/ThinkPHP/Library/WechatSdk/JsSdk.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+NOTIC: [8] Undefined index: mpid /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+

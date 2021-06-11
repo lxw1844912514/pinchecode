@@ -1,0 +1,14 @@
+[ 2021-04-14T02:39:01+08:00 ] 192.168.33.1 /Public/Install/css/icon.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+ERR: 无法加载模块:Public
+
+[ 2021-04-14T11:57:34+08:00 ] 192.168.33.1 /Public/Install/css/icon.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+ERR: 无法加载模块:Public
+

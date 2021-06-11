@@ -1,0 +1,1114 @@
+[ 2021-04-11T13:12:59+08:00 ] 192.168.33.1 /Admin/Passenger/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: access /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 173 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.015345s ]
+INFO: [ rbac ] --END-- [ RunTime:0.015361s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: access /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 173 行.
+NOTIC: [8] Undefined variable: topmenu /home/wwwroot/default/newproject/cc/App/Admin/Controller/BaseController.class.php 第 111 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: HTTP_REFERER /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 42 行.
+NOTIC: [8] Undefined index: per /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `dc_bs_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: list_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 71 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dc_bs_user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: list_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 72 行.
+NOTIC: [8] Undefined index: list_order /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 72 行.
+SQL: SELECT `name`,`email`,`name`,`phonenum`,`gender`,`id`,`created_at`,`id` FROM `dc_bs_user` LIMIT 0,20   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 109 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '2'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 109 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 109 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '4'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '5'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 109 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '14'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '15'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '16'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 169 行.
+NOTIC: [2] Illegal string offset 'placeholder' /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '17'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/PassengerController.class.php 第 198 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: list_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 177 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: meta_title /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 11 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 12 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 13 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 112 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 129 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 140 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined variable: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 287 行.
+NOTIC: [8] Undefined variable: subnav /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 308 行.
+NOTIC: [8] Undefined variable: add_button /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 313 行.
+NOTIC: [8] Undefined variable: del_button /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 314 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001743s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2021-04-11T13:16:35+08:00 ] 192.168.33.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.030083s ]
+INFO: [ rbac ] --END-- [ RunTime:0.030128s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: crumb /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 863 行.
+NOTIC: [8] Undefined index: nav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 864 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: btn /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 867 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 12 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 13 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 118 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 135 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 146 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 236 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 241 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 236 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 241 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 236 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 241 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+SQL: select version() as v; [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003542s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2021-04-11T13:16:44+08:00 ] 192.168.33.1 /Admin/Setting/siteinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.018455s ]
+INFO: [ rbac ] --END-- [ RunTime:0.018474s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_system_setting` WHERE `type` = 'siteinfo'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: edit_success_url /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 319 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: edit_success_info /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 320 行.
+NOTIC: [8] Undefined index: edit_error_info /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 321 行.
+NOTIC: [8] Undefined index: find_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 401 行.
+NOTIC: [8] Undefined index: edit_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 406 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined variable: edit_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 431 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: btn /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 867 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 12 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 13 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 112 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 129 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 140 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined variable: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 287 行.
+NOTIC: [8] Undefined variable: subnav /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 288 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 297 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 389 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 390 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 389 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 390 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 297 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 297 行.
+NOTIC: [8] Undefined variable: submit_type /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001729s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2021-04-11T13:17:10+08:00 ] 192.168.33.1 /Admin/Setting/siteinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.016234s ]
+INFO: [ rbac ] --END-- [ RunTime:0.016254s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_system_setting` WHERE `name` = 'site_name' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dc_system_setting` SET `name`='site_name',`value`='迅达拼车平台系统',`type`='siteinfo' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_system_setting` WHERE `name` = 'site_intro' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dc_system_setting` SET `name`='site_intro',`value`='迅达拼车平台管理系统',`type`='siteinfo' WHERE `id` = 2 [ RunTime:0.0033s ]
+SQL: SELECT * FROM `dc_system_setting` WHERE `name` = 'site_keywords' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dc_system_setting` SET `name`='site_keywords',`value`='拼车 顺风车',`type`='siteinfo' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_system_setting` WHERE `name` = 'site_copyright' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dc_system_setting` SET `name`='site_copyright',`value`='@本服务由 迅达拼车平台  开发',`type`='siteinfo' WHERE `id` = 4 [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_system_setting` WHERE `name` = 'site_icp_beian' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dc_system_setting` SET `name`='site_icp_beian',`value`='京ICP备***号-6',`type`='siteinfo' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_system_setting` WHERE `name` = 'fields' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dc_system_setting` SET `name`='fields',`value`='[{&quot;name&quot;:&quot;site_name&quot;,&quot;title&quot;:&quot;\\u7ad9\\u70b9\\u6807\\u9898&quot;,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;\\u8fc5\\u8fbe\\u62fc\\u8f66\\u5e73\\u53f0\\u7cfb\\u7edf&quot;},{&quot;name&quot;:&quot;site_intro&quot;,&quot;title&quot;:&quot;\\u7ad9\\u70b9\\u7b80\\u4ecb&quot;,&quot;type&quot;:&quot;textarea&quot;,&quot;value&quot;:&quot;\\u5728\\u4ea4\\u901a\\u4fbf\\u5229\\u548c\\u4fe1\\u606f\\u5316\\u7684\\u65f6\\u4ee3,\\u5fd9\\u788c\\u7684\\u5317\\u6f02\\u4e00\\u65cf\\u6bcf\\u9022\\u8282\\u5047\\u65e5\\u90fd\\u6709\\u56de\\u5bb6\\u770b\\u770b\\u7684\\u5ff5\\u5934,\\u4e3a\\u89e3\\u51b3\\u5317\\u6f02\\u4e00\\u65cf\\u7684\\u4e2d\\u9014\\u8f6c\\u8f66\\u7684\\u9ebb\\u70e6,\\u5b9e\\u73b0\\u4e0a\\u8f66\\u5c31\\u5230\\u5bb6\\u95e8\\u53e3\\u7684\\u5c0f\\u613f\\u671b,\\u8fbe\\u5230\\u65b9\\u4fbf\\u5feb\\u6377\\u7684\\u4f5c\\u7528,\\u7531\\u6b64\\u8bde\\u751f\\u4e86\\u62fc\\u8f66\\u5e73\\u53f0\\u7ba1\\u7406\\u7cfb\\u7edf.&quot;},{&quot;name&quot;:&quot;site_keywords&quot;,&quot;title&quot;:&quot;\\u7ad9\\u70b9\\u5173\\u952e\\u8bcd&quot;,&quot;type&quot;:&quot;textarea&quot;,&quot;value&quot;:&quot;\\u62fc\\u8f66 \\u987a\\u98ce\\u8f66&quot;},{&quot;name&quot;:&quot;site_copyright&quot;,&quot;title&quot;:&quot;\\u7248\\u6743\\u4fe1\\u606f&quot;,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;@\\u672c\\u670d\\u52a1\\u7531 \\u8fc5\\u8fbe\\u62fc\\u8f66\\u5e73\\u53f0  \\u5f00\\u53d1&quot;},{&quot;name&quot;:&quot;site_icp_beian&quot;,&quot;title&quot;:&quot;\\u5907\\u6848\\u4fe1\\u606f&quot;,&quot;type&quot;:&quot;text&quot;,&quot;value&quot;:&quot;\\u4eacICP\\u5907***\\u53f7-6&quot;}]',`type`='siteinfo' WHERE `id` = 7 [ RunTime:0.0019s ]
+
+[ 2021-04-11T13:17:12+08:00 ] 192.168.33.1 /Admin/Setting/siteinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.018453s ]
+INFO: [ rbac ] --END-- [ RunTime:0.018473s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dc_system_setting` WHERE `type` = 'siteinfo'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: edit_success_url /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 319 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: edit_success_info /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 320 行.
+NOTIC: [8] Undefined index: edit_error_info /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 321 行.
+NOTIC: [8] Undefined index: find_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 401 行.
+NOTIC: [8] Undefined index: edit_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 406 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined variable: edit_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 431 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: btn /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 867 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 12 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 13 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 112 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 129 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 140 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined variable: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 287 行.
+NOTIC: [8] Undefined variable: subnav /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 288 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 297 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 389 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 390 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 389 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 390 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 297 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 297 行.
+NOTIC: [8] Undefined variable: submit_type /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2021-04-11T13:28:27+08:00 ] 192.168.33.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.017650s ]
+INFO: [ rbac ] --END-- [ RunTime:0.017664s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: crumb /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 863 行.
+NOTIC: [8] Undefined index: nav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 864 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: btn /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 867 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 12 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 13 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 118 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 135 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 146 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 236 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 241 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 236 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 241 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 236 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 241 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+SQL: select version() as v; [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2021-04-11T13:28:33+08:00 ] 192.168.33.1 /Admin/User/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.016559s ]
+INFO: [ rbac ] --END-- [ RunTime:0.016606s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: per /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 69 行.
+NOTIC: [8] Undefined index: list_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 71 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dc_user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: list_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 72 行.
+NOTIC: [8] Undefined index: list_order /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 72 行.
+SQL: SELECT `username`,`nickname`,`email`,`id`,`register_time`,`id` FROM `dc_user` LIMIT 0,20   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '2'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/UserController.class.php 第 197 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/UserController.class.php 第 197 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: list_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 177 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Undefined variable: meta_title /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 11 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 12 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 13 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 112 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 129 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 140 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined variable: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 287 行.
+NOTIC: [8] Undefined variable: subnav /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 308 行.
+NOTIC: [8] Undefined variable: add_button /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 313 行.
+NOTIC: [8] Undefined variable: del_button /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 314 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2021-04-11T13:28:37+08:00 ] 192.168.33.1 /Admin/User/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.017542s ]
+INFO: [ rbac ] --END-- [ RunTime:0.017557s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+ERR: Too few arguments to function Common\Controller\CommonController::addFormField(), 3 passed in /home/wwwroot/default/newproject/cc/App/Admin/Controller/UserController.class.php on line 129 and exactly 4 expected
+
+[ 2021-04-11T13:29:45+08:00 ] 192.168.33.1 /Admin/User/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.026074s ]
+INFO: [ rbac ] --END-- [ RunTime:0.026088s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+ERR: Too few arguments to function Common\Controller\CommonController::addFormField(), 3 passed in /home/wwwroot/default/newproject/cc/App/Admin/Controller/UserController.class.php on line 131 and exactly 4 expected
+
+[ 2021-04-11T13:29:55+08:00 ] 192.168.33.1 /Admin/User/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.023528s ]
+INFO: [ rbac ] --END-- [ RunTime:0.023585s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 589 行.
+NOTIC: [8] Undefined index: edit_success_url /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 319 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: edit_success_info /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 320 行.
+NOTIC: [8] Undefined index: edit_error_info /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 321 行.
+NOTIC: [8] Undefined index: find_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 401 行.
+NOTIC: [8] Undefined index: edit_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 406 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: confirm_password /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 422 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [8] Undefined index: extra /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 414 行.
+SQL: SELECT * FROM `dc_rbac_role`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: edit_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 431 行.
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: btn /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 867 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: meta_title /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 11 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 12 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 13 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 112 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 129 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 140 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined variable: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 287 行.
+NOTIC: [8] Undefined variable: subnav /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 288 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 297 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 296 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 297 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 310 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 310 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 311 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 317 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 318 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 425 行.
+NOTIC: [8] Undefined variable: submit_type /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/24ec570ecb3a7e6140a4014de6602b6c.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002616s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2021-04-11T13:30:02+08:00 ] 192.168.33.1 /Admin/User/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.015329s ]
+INFO: [ rbac ] --END-- [ RunTime:0.015378s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: _auto /home/wwwroot/default/newproject/cc/App/Admin/Controller/UserController.class.php 第 94 行.
+NOTIC: [8] Undefined index: validate /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dc_user` SET `nickname`='Administrator',`email`='11@qq.com' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: DELETE FROM `dc_rbac_role_user` WHERE `user_id` = '1' [ RunTime:0.0055s ]
+SQL: INSERT INTO `dc_rbac_role_user` (`user_id`,`role_id`) VALUES ('1','1') [ RunTime:0.0030s ]
+
+[ 2021-04-11T13:30:03+08:00 ] 192.168.33.1 /Admin/User/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.025835s ]
+INFO: [ rbac ] --END-- [ RunTime:0.025848s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: per /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 69 行.
+NOTIC: [8] Undefined index: list_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 71 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dc_user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: list_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 72 行.
+NOTIC: [8] Undefined index: list_order /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 72 行.
+SQL: SELECT `username`,`nickname`,`email`,`id`,`register_time`,`id` FROM `dc_user` LIMIT 0,20   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: params /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 124 行.
+SQL: SELECT `role_id` FROM `dc_rbac_role_user` WHERE `user_id` = '2'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: roles /home/wwwroot/default/newproject/cc/App/Admin/Controller/UserController.class.php 第 197 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/wwwroot/default/newproject/cc/App/Admin/Controller/UserController.class.php 第 197 行.
+NOTIC: [8] Undefined index: placeholder /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 172 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 153 行.
+NOTIC: [8] Undefined index: list_map /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 177 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: meta_title /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 11 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 12 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 13 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 112 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 129 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 140 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 235 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 230 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+NOTIC: [8] Undefined variable: tip /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 287 行.
+NOTIC: [8] Undefined variable: subnav /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 308 行.
+NOTIC: [8] Undefined variable: add_button /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 313 行.
+NOTIC: [8] Undefined variable: del_button /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/7458a170556c8c4f56f101fcee026dd6.php 第 314 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2021-04-11T13:32:49+08:00 ] 192.168.33.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ rbac ] --START--
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+INFO: Run Common\Behavior\RbacBehavior [ RunTime:0.018893s ]
+INFO: [ rbac ] --END-- [ RunTime:0.018907s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '1'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+SQL: SELECT * FROM `dc_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: meta_title /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 862 行.
+NOTIC: [8] Undefined index: crumb /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 863 行.
+NOTIC: [8] Undefined index: nav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 864 行.
+NOTIC: [8] Undefined index: sidenav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 865 行.
+NOTIC: [8] Undefined index: subnav /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 866 行.
+NOTIC: [8] Undefined index: btn /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 867 行.
+NOTIC: [8] Undefined index: tip /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 868 行.
+NOTIC: [8] Undefined index: list_search /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 869 行.
+NOTIC: [8] Undefined index: submit_type /home/wwwroot/default/newproject/cc/App/Common/Controller/CommonController.class.php 第 870 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 12 行.
+NOTIC: [8] Undefined variable: settings /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 13 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 118 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 135 行.
+NOTIC: [8] Undefined variable: mp_info /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 146 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 236 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 241 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 236 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 241 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 236 行.
+NOTIC: [8] Undefined index: children /home/wwwroot/default/newproject/cc/Runtime/Cache/Admin/220f72f7e6ae0a9673378392936f2785.php 第 241 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/newproject/cc/App/Common/Common/function.php 第 857 行.
+SQL: select version() as v; [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+

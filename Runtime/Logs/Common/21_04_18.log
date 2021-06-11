@@ -1,0 +1,7 @@
+[ 2021-04-18T22:41:11+08:00 ] 192.168.33.1 /Public/Home/default/img/bs-docs-masthead-pattern.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001899s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+ERR: 无法加载模块:Public
+
