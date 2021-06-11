@@ -1,0 +1,132 @@
+[ 2021-06-11T10:29:54+08:00 ] 192.168.33.1 /User/Public/login_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001998s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2021-06-11T10:29:56+08:00 ] 192.168.33.1 /User/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001136s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2021-06-11T10:29:59+08:00 ] 192.168.33.1 /User/Public/geetest_verify/t/1623378598883
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0003s ]
+NOTIC: [1024] curl[http://api.geetest.com/register.php?gt=b46d1900d0a894591916ea94ea91bd2c] error[28:Resolving timed out after 1518 milliseconds] /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Vendor/GeeTest/geetestlib.php 第 358 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001786s ]
+
+[ 2021-06-11T10:30:08+08:00 ] 192.168.33.1 /User/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `dc_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2021-06-11T10:30:12+08:00 ] 192.168.33.1 /User/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Constant NOW_TIME already defined /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/App.class.php 第 30 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] Undefined variable: result /home/wwwroot/default/newproject/cc/ThinkPHP/Library/Think/Hook.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `dc_system_setting` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dc_system_setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `dc_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dc_user` WHERE `username` = 'admin2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `username` = 'admin2' AND `password` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `default_mpid` FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dc_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `dc_rbac_role_user` WHERE `user_id` = '3'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_role` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dc_rbac_mp_access` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dc_rbac_mp_access` WHERE `role_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/default/newproject/cc/App/User/Model/UserModel.class.php 第 160 行.
+
